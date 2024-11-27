@@ -111,4 +111,40 @@ class produit
 
         return $this;
     }
+
+    /**
+     * Get the value of qte
+     */
+    public function getQte()
+    {
+        return $this->qte;
+    }
+
+    /**
+     * Set the value of qte
+     */
+    public function setQte($qte): self
+    {
+        $this->qte = $qte;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of image
+     */
+    public function getImage()
+    {
+        return $this->image;
+    }
+
+    /**
+     * Set the value of image
+     */
+    public function setImage($image): self
+    {
+        $this->image = $image;
+
+        return $this;
+    }
 }
